@@ -1,0 +1,110 @@
+#字節編譯/優化/DLL 文件
+__pycache__ /
+* .py [鱈魚]
+* $py.class
+
+# C 擴展
+*.所以
+
+#配送/包裝
+。Python
+建立/
+發育卵/
+距離/
+下載/
+雞蛋/
+.雞蛋/
+庫/
+lib64 /
+零件/
+分配器/
+變量/
+車輪/
+* .egg-信息/
+.installed.cfg
+*.雞蛋
+顯現
+
+#安裝程序
+#  通常這些文件是由模板中的 python 腳本編寫的
+#  在 PyInstaller 構建 exe 之前，以便將日期/其他信息注入其中。
+* .清單
+*.規格
+
+#安裝程序日誌
+pip-log.txt
+pip-delete-this-directory.txt
+
+#單元測試/覆蓋率報告
+htmlcov /
+.tox /
+.coverage
+.覆蓋範圍。*
+.緩存
+鼻子測試.xml
+覆蓋.xml
+* .cover
+.假設/
+.pytest_cache /
+
+#翻譯
+* .mo
+*.鍋
+
+# Django 的東西：
+*.日誌
+本地設置.py
+數據庫.sqlite3
+
+#燒瓶的東西：
+實例/
+.webassets-緩存
+
+#零散的東西：
+.scrapy
+
+#獅身人面像文檔
+文檔/ _build /
+
+# PyBuilder
+目標/
+
+# Jupyter 筆記本
+.ipynb_checkpoints
+
+#pyenv _
+.python版本
+
+#芹菜節拍時間表文件
+芹菜節拍時間表
+
+# SageMath 解析文件
+*.聖人.py
+
+#環境
+.env
+.venv
+環境/
+文/
+環境/
+環境.bak /
+venv.bak /
+
+# Spyder 項目設置
+.spyder項目
+.spyproject
+
+#繩索項目設置
+.ropeproject
+
+# mkdocs 文檔
+/網站
+
+#我的
+.mypy_cache /
+
+# Mac文件
+.DS_Store
+
+# vs代碼
+.vscode /
