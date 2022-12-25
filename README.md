@@ -3,7 +3,7 @@
 用選項按鈕製作出3種10題壓力測驗的題目
 # 構想:
 原本是想做只有選擇的機器人，但後來又想要加入計算分數的系統進去，為了讓返回上一題的分數正確，所以我將不同題目的分數用不同的名詞代替，這樣的話點選上一題那上一題的分數就會歸0
-這樣再重新做選擇分數即會正常
+這樣再重新做選擇分數即會正常除此之外每次做完後會自動把每一題得到的分數歸零以便重新開始
 # 環境架設
 python3.9
 
@@ -20,7 +20,8 @@ pipenv install line-bot-sdk
 ![11111](https://user-images.githubusercontent.com/120545242/209146217-abe64db4-e106-45f3-924c-ee0013626704.png)
 接著到powershell 輸入pipenv shell進入後輸入python app.py執行程式接著回到line developers verify功能即可運作
 # 我的fsm
-![fsm](https://user-images.githubusercontent.com/120545242/209146703-6c108b44-5c3e-43ca-9f05-796f9d4bea76.png)
+![fsm](https://user-images.githubusercontent.com/120545242/209461998-938d0d84-39ff-498c-a290-7b7dfe764a56.png)
+
 # 使用方式
 加入好友後，執行程式，輸入開始即可選擇要做的測驗種類
 
@@ -33,8 +34,8 @@ pipenv install line-bot-sdk
 做完十題後，點選結果，會根據你選擇的選項進行加分最後給出建議
 
 ![44444](https://user-images.githubusercontent.com/120545242/209148396-04f9502f-ad12-409a-a0bf-4f895d510fd5.png)
-的
-輸入fsm可以得到當下的圖片的
+
+輸入fsm可以得到當下的圖片
 
 ![10101010](https://user-images.githubusercontent.com/120545242/209461896-24337dc0-e511-46c9-b2e5-a18099d1a380.png)
 
