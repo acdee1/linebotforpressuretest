@@ -1,6 +1,6 @@
 # Line pressuretest
 # 目標:做出積分制的壓力測驗
-用選項按鈕製作出10題壓力測驗的題目
+用選項按鈕製作出3種10題壓力測驗的題目
 # 構想:
 原本是想做只有選擇的機器人，但後來又想要加入計算分數的系統進去，為了讓返回上一題的分數正確，所以我將不同題目的分數用不同的名詞代替，這樣的話點選上一題那上一題的分數就會歸0
 這樣再重新做選擇分數即會正常
@@ -22,9 +22,9 @@ pipenv install line-bot-sdk
 # 我的fsm
 ![fsm](https://user-images.githubusercontent.com/120545242/209146703-6c108b44-5c3e-43ca-9f05-796f9d4bea76.png)
 # 使用方式
-加入好友後，執行程式，輸入開始即可開始測驗
+加入好友後，執行程式，輸入開始即可選擇要做的測驗種類
 
-![螢幕擷取畫面 2022-12-22 214449](https://user-images.githubusercontent.com/120545242/209147414-e178c4da-52e8-4a5f-adc9-bedaddf42ea9.png)
+![888888888](https://user-images.githubusercontent.com/120545242/209458412-bd0ca6a6-9973-44a6-9036-1b7dccdbe523.png)
 
 選擇第一題後會跳到第二題，從第二題開始會有返回上一題的選項，點選後會回到上一題再繼續做選擇
 
@@ -36,5 +36,6 @@ pipenv install line-bot-sdk
 
 輸入開始後即可下一輪的測試
 
-![5555](https://user-images.githubusercontent.com/120545242/209148582-15c219ec-8fc8-498e-9b3a-5726767ae136.png)
+![9999999999999](https://user-images.githubusercontent.com/120545242/209458433-dd7debef-9d89-4dfa-9c72-0c55f290a980.png)
+
 
